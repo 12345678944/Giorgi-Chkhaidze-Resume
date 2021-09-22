@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/*navbar style */
+.navbar{
+    position:fixed;
+    width: 100%;
+    padding: 15px 0;
+    background:rgba(0, 0, 0, 0.692);
+    font-family: 'Changa One', cursive;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color:#fff;
+    font-size: 35px;
+    font-weight: 100;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+/*home section styleing */
+.home {
+    display: flex;
+    background: url("images/20200202_180350.jpg") no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    min-height: 500px;
+    font-family: 'Changa One', cursive;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+
+/*skills page home section styleing */
+.home-2 {
+    display: flex;
+    background: url("images/81271671_1791189614344784_3545338285570129920_o.jpg") no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    min-height: 500px;
+    font-family: 'Changa One', cursive;
+    color: #fff;
+}
+.home-2 .skill-title{
+    font-size: 40px;
+    color: #fff;
+}
+.home-2 .skill-small{
+    font-size: 20px;
+    color: #fff;
+}
+.home-2 .skill-small span{
+    font-size: 20px;
+    color: rgb(119, 0, 255);
+}
+.home-2 .skill-long-text{
+    font-size: 20px;
+    color: #fff;
+}
+.home-2 .skill-before-longtext {
+    font-size: 40px;
+    color: #fff;
+}
+.home-2 .skill-before-longtext span{
+    font-size: 40px;
+    color: rgb(119, 0, 255);
+}
+
+.home2 .max-width{
+    margin: auto 0 auto 40px;
+}
+
+/*navbar styling*/
+.navbar .contact-info {
+    margin-left: 400px;
+}
+.navbar .contact-info ul{
+    margin-left: 41px;
+}
+.navbar .contact-info ul li{
+    display: inline-block;
+    margin-right: 35px;
+}
+.navbar .contact-info ul li a{
+    color: #fff;
+
+}
+/*hello i am giorgi text syle */
+.text-1{
+    text-shadow: 2px 2px 5px black;
+    color: #fff;
+    font-size: 75px;
+}
+.text-name{
+    text-shadow: 2px 2px 5px black;
+    color: rgb(255, 0, 98);
+    font-size: 100px;
+}
+.text-2{
+    text-shadow: 2px 2px 5px black;
+    color: #fff;
+    font-size: 75px;
+}
+.text-2 span{
+    text-shadow: 2px 2px 5px black;
+    color: rgb(255, 0, 98);
+    font-size: 75px;
+}
+.text-2 span:before{
+    content: '';
+    animation: animate infinite 8s;
+}
+@keyframes animate{
+    0%{
+        content: 'Photoshop Specialist';
+    }
+    20%{
+        content: 'Animator';
+    }
+    40%{
+        content: 'Graphic Designer';
+    }
+    60%{
+        content: 'Game Developer';
+    }
+    80%{
+        content: 'UI/UX Designer';
+    }
+    100%{
+        content: '3D Designer';
+    }
+}
+.watch-resume i{
+    text-align: center;
+    padding: 12px 17px;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3;
+}
+
+.watch-resume li{
+    display: inline-block;
+}
+.watch-resume li a{
+    text-shadow: 2px 2px 5px black;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 24px;
+    cursor: pointer;
+}
+.watch-resume:before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    border-top: 4px solid #fff;
+    box-shadow: black;
+    top: 65%;
+    left: 0;
+}
+/*here is button info style*/
+.button-info .copy-right{
+    position:absolute;
+    position: fixed;
+    color: #fff;
+    bottom: 2%;
+    left: 100px;
+    font-size: 25px;
+    font-family: 'Changa One', cursive;
+    text-shadow: 2px 2px 5px black;
+}
+.button-info .copy-right ul div{
+    display: inline-block;
+    height: 50px;
+}
+.button-info .social-icons {
+    position: absolute;
+    position: fixed;
+    right: 50px;
+    bottom: 2%;
+}
+.button-info .social-icons ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.button-info .social-icons ul li a{
+    display: block;
+    color: #fff;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    padding: 12px 17px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3;
+}
