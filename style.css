@@ -226,14 +226,3 @@
     cursor: pointer;
     transition: all 0.3;
 }
-
-@media (orientation: landscape), (max-width:500px){
-    body{
-        display: block;
-    }
-}
-@media (orientation: portrait){
-    body{
-        display: block;
-    }
-}
