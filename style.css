@@ -226,3 +226,8 @@
     cursor: pointer;
     transition: all 0.3;
 }
+.button-info .social-icons ul li a :hover{
+    background: rgb(35, 100, 221);
+    block-size: 40px;
+    border-radius: 5px;
+}
